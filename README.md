@@ -30,7 +30,7 @@ info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this comm
 
 In this case, just try SET instead of Export in  package.json like this:
   
-      "start": "set HTTPS=true && react-scripts start",
+      "start": "set HTTPS=true&& react-scripts start",
 
 
 
