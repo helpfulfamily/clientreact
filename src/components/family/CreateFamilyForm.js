@@ -6,11 +6,9 @@ import {publishProblem} from "../../actions/problem/ProblemTitleAction";
 import {connect} from "react-redux";
 import PropTypes from 'prop-types'
 
-import draftToHtml from 'draftjs-to-html';
 import '../../../node_modules/react-draft-wysiwyg/dist/react-draft-wysiwyg.css'
 import familypng from "./family.png";
 import {getToken} from "../common/process";
-import ChannelTagComponent from "../common/ChannelTagComponent";
 
 
 
